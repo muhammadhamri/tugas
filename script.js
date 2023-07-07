@@ -1,3 +1,5 @@
+//script nav
+
 const menuToggle = document.querySelector(".menu-toggle input");
 
 const nav = document.querySelector("nav ul");
@@ -15,4 +17,4 @@ setInterval(function () {
   if (counter > 4) {
     counter = 1;
   }
-}, 5000);
+}, 4000);
